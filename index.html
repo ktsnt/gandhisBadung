@@ -7,7 +7,25 @@
     <title>Gandhi's BADUNG</title>
     <link rel="stylesheet" href="https://ktsnt.github.io/gandhisBadung/style.css" />
 <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" rel="stylesheet" />
-	
+	<!-- Slick CSS -->
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css">
+	<style>
+    /*--SLICK --*/
+.slider{
+    background-color: #06fdfdb7;
+    width: 90%;
+    margin: auto;
+    left: 0;
+    right: 0;
+    position: fixed;
+    bottom: 60px;
+    padding: 10px;
+    text-align: center;
+    height: 100px; 
+    border-radius: 30px 5px;
+}
+ </style>
     <link rel="shortcut icon" href="https://raw.githack.com/ktsnt/gandhis.karangasem/main/iconweb.png" type="image/x-icon">
 </head>
 <body>
@@ -20,7 +38,33 @@
 			<div style="border: rgb(70, 21, 245, 0.363) 10px solid;" class="wadahbox">ALAMAT TOKO GANDHI'S DALUNG <br/><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3944.756080722287!2d115.17319151416426!3d-8.619400489967058!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd2392424b85da7%3A0x9d45fa643fb72067!2zR2FuZGhpJ3MgbGF1bmRyeW1hcnQgY2FiYW5nIGRhbHVuZyAtIOGsleGspuGthOGspOGstuGssuGthCDhrKThrK7hrLjhrILhrZ8!5e0!3m2!1sen!2sid!4v1643593053559!5m2!1sen!2sid" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe></div>
               
                   
-</body>
+<!--slide testi-->
+<div class="container">
+    <div class="slider">
+        <script src="https://ktsnt.github.io/gandhisBadung/isiTesti.js"></script>
+    </div>
+</div>
+ <!-- JQuery -->
+ <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+ <!-- Slick JS -->    
+ <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+ <!-- Our Script -->
+ <script>
+     $(document).ready(function(){
+     $('.slider').slick({
+        autoplay: true,
+        autoplaySpeed: 3000,
+        //speed: 600,
+        //draggable: false,
+        //infinite: true,
+        //slidesToShow: 1,
+        //slidesToScroll: 1,
+        //arrows: false,
+        //dots: false
+     });
+ });
+ </script>
+	</body>
     <footer>
                 <div>
                   <nav class="nav--icons">

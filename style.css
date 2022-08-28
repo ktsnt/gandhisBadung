@@ -66,6 +66,37 @@
   font-weight: 300;
   margin-bottom: 0;
 }
+/"--btn nav sqmping --*/
+.btn-kiri-atas{
+font-size: 12pt;
+padding: 5px;
+position: fixed;
+top:5px;
+Left: 5px;
+}
+.btn-kanan-atas{
+font-size: 12pt;
+padding: 5px;
+position: fixed;
+top:5px;
+right: 5px;
+transform:rotate(90deg)
+}
+.btn-kanan-bawah{
+font-size: 12pt;
+padding: 5px;
+position: fixed;
+bottom:5px;
+right: 5px;
+}
+.btn-kiri-bawah{
+font-size: 12pt;
+padding: 5px;
+position: fixed;
+bottom:5px;
+left: 5px;
+transform:rotate(180deg)
+}
 
 /*--btn nav--*/
 .nav--icons {
